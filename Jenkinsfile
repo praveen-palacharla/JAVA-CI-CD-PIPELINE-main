@@ -6,7 +6,7 @@ pipeline
  agent any
  environment
  {
-     AWS_ACCOUNT_ID="930264708953"
+     AWS_ACCOUNT_ID="981935695664"
      AWS_DEFAULT_REGION="us-east-1" 
      IMAGE_REPO_NAME="mavenwebapp"
      REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
@@ -166,9 +166,9 @@ pipeline
  
         Regards,
  
-        Nithin John George
-        ''', compressLog: true, replyTo: 'njdevops321@gmail.com', 
-        subject: '$PROJECT_NAME - $BUILD_NUMBER - $BUILD_STATUS', to: 'njdevops321@gmail.com'
+        Praveen
+        ''', compressLog: true, replyTo: 'praveenpalacharla@outlook.com', 
+        subject: '$PROJECT_NAME - $BUILD_NUMBER - $BUILD_STATUS', to: 'praveenpalacharla@outlook.com'
      }
      failure
      {
@@ -179,9 +179,9 @@ pipeline
  
         Regards,
  
-        Nithin John George
-        ''', compressLog: true, replyTo: 'njdevops321@gmail.com', 
-        subject: '$PROJECT_NAME - $BUILD_NUMBER - $BUILD_STATUS', to: 'njdevops321@gmail.com'
+        Praveen
+        ''', compressLog: true, replyTo: 'praveenpalacharla@outlook.com', 
+        subject: '$PROJECT_NAME - $BUILD_NUMBER - $BUILD_STATUS', to: 'praveenpalacharla@outlook.com'
      }
  }
 
